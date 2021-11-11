@@ -1,0 +1,86 @@
+body{
+	background-color: blue;
+}
+main{
+	background-color: lightblue;
+	width: 97%;
+	margin: 0 auto;
+}
+header{
+	height: 250px;
+	background-image: url('images/tennis.jpg');
+}
+h1{
+	padding: 10px;
+	font-size: 2.5em;
+	margin-bottom: 5px;
+}
+nav ul{
+	margin: 0px;
+	padding: 5px 0;
+	list-style: none;
+}
+nav ul li{
+	/*display: inline-block;
+	width: 100px;*/
+}
+nav ul li a{
+	display: block;
+	padding: 20px 0;
+	text-align: center;
+	border: 1px solid blue;
+	text-decoration: none;
+	background-color: white;
+}
+nav ul li a:link{
+	color: black;
+}
+nav ul li a:visited{
+	color: grey;
+}
+nav ul li a:hover{
+	background-color: blue;
+	color: lightblue;
+}
+nav ul li a:active{
+	box-shadow: 5px 5px grey;
+}
+section{
+	overflow: auto;
+}
+article, aside{
+	padding: 10px;
+	box-sizing: border-box;
+}
+section article{
+	border-bottom: 2px solid blue;
+	/*float: left;
+	width: 65%;*/
+}
+/*section aside{
+	float: right;
+	width: 25%;
+}*/
+footer{
+	background-color: white;
+	border-top: 2px solid blue;
+}
+@media screen and (min-width: 460px){
+	h1{
+		color: red;
+	}
+	nav ul li{
+	display: inline-block;
+	width: 100px;
+	}
+	section article{
+	float: left;
+	width: 65%;
+	border-bottom: 0;
+	}
+	section aside{
+	float: right;
+	width: 25%;
+	}
+}
+
